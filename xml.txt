@@ -1,0 +1,608 @@
+<?xml version="1.0"?>
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcel Details for 0205241900000</title>
+    <link href="/Content/dist/css/site.min.css?v=4.0.7242.18664" rel="stylesheet"/>
+    <link href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css" rel="stylesheet"/>
+    <link rel="SHORTCUT ICON" href="/Images/devnet.ico">
+</link>
+<body data-spy="scroll" data-offset="65">
+    <div class="navbar navbar-inverse navbar-fixed-top hidden-print">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"/>
+                    <span class="icon-bar"/>
+                    <span class="icon-bar"/>
+                </button>
+                <a href="/" class="navbar-brand">Lancaster County <span class="hidden-xs hidden-sm">Property Tax Inquiry</span></a>
+            </div>
+            <div class="navbar-collapse collapse">
+
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/Cart"><span class="glyphicon glyphicon-shopping-cart"/> Shopping Cart</a></li>
+                    <li><a href="/">New Search <span class="glyphicon glyphicon-search"/> </a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle link-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">County Links <span class="caret"/></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://co.lancaster.pa.us/">Lancaster County Website</a></li>
+                            <li><a href="http://co.lancaster.pa.us/154/Property-Assessment">County Assessor</a></li>
+                            <li><a href="http://co.lancaster.pa.us/162/Treasurer">County Treasurer</a></li>
+                            <li><a href="https://gis.co.lancaster.pa.us/mox6/public.cfm">GIS Website</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        
+
+<div class="row">
+    <div class="col-xs-12 col-sm-10 col-print-12">
+        <div id="alerts"/>
+        
+
+<a id="Overview"/>
+
+<div class="panel panel-info">
+    <div class="panel-heading"><h3 class="panel-title">Property Information</h3></div>
+    <div class="panel-body" id="overview-body">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="inner-label col-sm-5">Property ID</div>
+                    <div class="col-sm-7">020-52419-0-0000</div>
+                </div>
+                <div class="row">
+                    <div class="inner-label col-sm-5">Tax Year</div>
+                    <div class="col-sm-7">
+                        2020
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="caret"/>
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                    <li><a href="/parcel/view/0205241900000/2020">2020</a></li>
+                                    <li><a href="/parcel/view/0205241900000/2019">2019</a></li>
+                                    <li><a href="/parcel/view/0205241900000/2018">2018</a></li>
+                                    <li><a href="/parcel/view/0205241900000/2017">2017</a></li>
+                                    <li><a href="/parcel/view/0205241900000/2016">2016</a></li>
+                                    <li><a href="/parcel/view/0205241900000/2015">2015</a></li>
+                                    <li><a href="/parcel/view/0205241900000/2014">2014</a></li>
+                                    <li><a href="/parcel/view/0205241900000/2013">2013</a></li>
+                                    <li><a href="/parcel/view/0205241900000/2012">2012</a></li>
+                                    <li><a href="/parcel/view/0205241900000/2011">2011</a></li>
+                                    <li><a href="/parcel/view/0205241900000/2010">2010</a></li>
+                                    <li><a href="/parcel/view/0205241900000/2009">2009</a></li>
+                                    <li><a href="/parcel/view/0205241900000/2008">2008</a></li>
+                                    <li><a href="/parcel/view/0205241900000/2007">2007</a></li>
+                                    <li><a href="/parcel/view/0205241900000/2006">2006</a></li>
+                                    <li><a href="/parcel/view/0205241900000/2005">2005</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="inner-label col-sm-5">Township</div>
+                    <div class="col-sm-7">020 Akron Boro</div>
+                </div>
+                <div class="row">
+                    <div class="inner-label col-sm-5">Site Address</div>
+                        <div class="col-sm-7">
+                            303  MANOR RIDGE DR         
+                        </div>
+                </div>
+
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="inner-label col-sm-5">Property Use</div>
+                    <div class="col-sm-7">100 - RESIDENTIAL</div>
+                </div>
+                <div class="row">
+                    <div class="inner-label col-sm-5">Land Use</div>
+                    <div class="col-sm-7">113 - SINGLE FAMILY DWELLING</div>
+                </div>
+                <div class="row">
+                    <div class="inner-label col-sm-5">Tax Status</div>
+                    <div class="col-sm-7">Taxable</div>
+                </div>
+                <div class="row">
+                    <div class="inner-label col-sm-5">Clean  Green</div>
+                    <div class="col-sm-7">No</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><a id="Photos"/>
+<div class="panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title">Property Sketches  Photos</h3>
+        </div>
+        <div class="panel-body">
+                <div class="col-xs-6">
+                    <p class="text-center">1-1</p>
+                    <a href="/PropertyImages/CAMA/2020/109856.JPG" target="_blank"><img style="width:100%" src="/PropertyImages/CAMA/2020/109856.JPG"/></a>
+                </div>
+                <div class="col-xs-6">
+                    <p class="text-center">Parcel photo</p>
+                    <a href="/PropertyImages/ASRIMG/LAN0191/01910359.jpg" target="_blank"><img style="width:100%" src="/PropertyImages/ASRIMG/LAN0191/01910359.jpg"/></a>
+                </div>
+        </div>
+</div>
+<a id="Names"/>
+
+    <div class="panel panel-info">
+        <div class="panel-heading"><h3 class="panel-title">Related Names</h3></div>
+        <div class="panel-body" style="margin:5px; padding-top:0; padding-left:15px; padding-right:15px;padding-bottom:0;">
+            <div class="row">
+                    <div class="col-sm-6" style="padding:2px">
+                        <div style="border:solid;border-width:thin;padding:5px;border-radius:5px;border-color:#459e00">
+                            
+                            <div class="row">
+                                <div class="inner-label col-sm-4">Parcel Owner</div>
+                                <div class="col-sm-8">SMITH, SHAWN M</div>
+                            </div>
+                            <div class="row">
+                                <div class="inner-label col-sm-4"/>
+                                <div class="col-sm-8">303 MANOR RIDGE DRIVE </div>
+                                <div class="inner-label col-sm-4"/>
+                                <div class="col-sm-8">AKRON, PA 17501</div>
+                            </div>
+                            <div class="row">
+                                <div class="inner-label col-sm-4">Status</div>
+                                <div class="col-sm-8">Current</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+<a id="Assessments"/>
+
+    <div class="panel panel-info">
+        <div class="panel-heading"><h3 class="panel-title">Assessments</h3></div>
+                <div class="table-responsive">
+                    <table class="table table-bordered" style="border-top:solid;border-width:thin;padding:5px;border-radius:5px;border-color:lightgray;text-align:center;">
+                        <thead>
+                            <tr>
+                                <th colspan="7"><div class="text-left">Annual Billing</div></th>
+                            </tr>
+                            <tr style="font-weight:bold;">
+                                <th/>
+                                <th style="text-align:right">Land</th>
+                                <th style="text-align:right">Building</th>
+                                <th style="text-align:right">Total</th>
+                                <th style="text-align:right">Pref. Land</th>
+                                <th style="text-align:right">Pref. Building</th>
+                                <th style="text-align:right">Pref. Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="text-right">
+                                <td style="text-align:left">Non-Exempt</td>
+                                <td>45,400</td>
+                                <td>117,100</td>
+                                <td style="font-weight:bold;">162,500</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td style="font-weight:bold;">0</td>
+                            </tr>
+                            <tr class="text-right">
+                                <td style="text-align:left">Exempt</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td style="font-weight:bold;">0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td style="font-weight:bold;">0</td>
+                            </tr>
+                            <tr class="text-right" style="font-weight:bold;">
+                                <td style="text-align:left">Total</td>
+                                <td>45,400</td>
+                                <td>117,100</td>
+                                <td>162,500</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            <div class="panel-body">
+                <div><b>Note:</b> Preferential assessment values are used for taxation when preferential values are greater than zero.</div>
+            </div>
+    </div>
+
+<a id="PropertyCharacteristics"/>
+
+<div class="panel panel-info">
+    <div class="panel-heading"><h3 class="panel-title">Property Characteristics</h3></div>
+    <table class="table table-bordered">
+        <thead>
+            <tr class="text-center">
+                <th class="col-xs-3">Electric</th>
+                <th class="col-xs-3">Gas</th>
+                <th class="col-xs-3">Sewage</th>
+                <th class="col-xs-3">Water</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="text-center">
+                <td>HOOKED-UP</td>
+                <td>NONE</td>
+                <td>PUBLIC SYSTEM</td>
+                <td>PUBLIC SYSTEM</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<a id="LandValue"/>
+
+<div class="panel panel-info">
+    <div class="panel-heading"><h3 class="panel-title">Market Land Valuation</h3></div>
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Property Type</th>
+                    <th>Land Type</th>
+                    <th style="text-align:right">Sq. Ft.</th>
+                    <th style="text-align:right">Calc. Acres</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr class="text-center">
+                        <td>RES - Residential</td>
+                        <td>2 - PRIMARY HOMESITE</td>
+                        <td style="text-align:right">13,068</td>
+                        <td style="text-align:right">0.3000</td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<a id="Structures"/>
+        <div class="panel panel-info">
+            <div class="panel-heading"><h3 class="panel-title">Structure 1 of 2</h3></div>
+                <div class="table-responsive">
+                    <table style="margin:0;" class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th class="col-xs-2">Property Type</th>
+                                <th class="col-xs-3">Description</th>
+                                <th class="col-xs-3">Style</th>
+                                <th style="text-align:right" class="col-xs-2">Total Living Area</th>
+                                <th style="text-align:right" class="col-xs-1">Year Built</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="text-center">
+                                <td>RES - Residential</td>
+                                <td>BI-LEVEL #1</td>
+                                <td>Bi-Level</td>
+                                <td style="text-align:right">1,200</td>
+                                <td style="text-align:right">1979</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="panel-body">
+                        <div class="col-sm-6">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><h3 class="panel-title">Accommodations</h3></div>
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                                <tr>
+                                                    <td>Extra Fixtures</td>
+                                                    <td class="text-right col-xs-4">                  3 </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Full Baths</td>
+                                                    <td class="text-right col-xs-4">                  2 </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Number of Bedrooms</td>
+                                                    <td class="text-right col-xs-4">                  3 </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Number of Families</td>
+                                                    <td class="text-right col-xs-4">                  1 </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Number of Rooms</td>
+                                                    <td class="text-right col-xs-4">                  5 </td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><h3 class="panel-title">Fireplaces</h3></div>
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                                <tr>
+                                                    <td>Single 1-Story Fireplace</td>
+                                                    <td class="text-right col-xs-4">1.00 Units</td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><h3 class="panel-title">Paving/Decking</h3></div>
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                                <tr>
+                                                    <td>Concrete, Unreinforced Hand Mixed and Spread</td>
+                                                    <td class="text-right col-xs-4">180.00 Sq.Ft.</td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><h3 class="panel-title">Roofing</h3></div>
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                                <tr>
+                                                    <td>Composition Shingle</td>
+                                                    <td class="text-right col-xs-4">1200.00 Sq.Ft.</td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><h3 class="panel-title">Style</h3></div>
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                                <tr>
+                                                    <td>Style</td>
+                                                    <td class="text-right col-xs-4">BI-LEVEL </td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                        </div>
+                        <div class="col-sm-6">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><h3 class="panel-title">Basement</h3></div>
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                                <tr>
+                                                    <td>Basement Garage, Single</td>
+                                                    <td class="text-right col-xs-4">1.00 Units</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Minimal Finish Area</td>
+                                                    <td class="text-right col-xs-4">620.00 Sq.Ft.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Total Basement Area</td>
+                                                    <td class="text-right col-xs-4">1134.00 Sq.Ft.</td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><h3 class="panel-title">Exterior Walls</h3></div>
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                                <tr>
+                                                    <td>Frame, Plywood</td>
+                                                    <td class="text-right col-xs-4">1200.00 Sq.Ft.</td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><h3 class="panel-title">Heating/Cooling</h3></div>
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                                <tr>
+                                                    <td>Warmed  Cooled Air</td>
+                                                    <td class="text-right col-xs-4">1200.00 Sq.Ft.</td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><h3 class="panel-title">Porches, Decks, Breezeways</h3></div>
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                                <tr>
+                                                    <td>Wood Deck</td>
+                                                    <td class="text-right col-xs-4">180.00 Sq.Ft.</td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><h3 class="panel-title">Story Height</h3></div>
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                                <tr>
+                                                    <td>Number of Stories</td>
+                                                    <td class="text-right col-xs-4">               1.00 </td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                        </div>
+                </div>
+        </div>
+        <div class="panel panel-info">
+            <div class="panel-heading"><h3 class="panel-title">Structure 2 of 2</h3></div>
+                <div class="table-responsive">
+                    <table style="margin:0;" class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th class="col-xs-2">Property Type</th>
+                                <th class="col-xs-3">Description</th>
+                                <th class="col-xs-3">Style</th>
+                                <th style="text-align:right" class="col-xs-2">Total Living Area</th>
+                                <th style="text-align:right" class="col-xs-1">Year Built</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="text-center">
+                                <td>RES - Residential</td>
+                                <td>Detached Structure #1</td>
+                                <td>Outbuildings</td>
+                                <td style="text-align:right">45</td>
+                                <td style="text-align:right">2005</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="panel-body">
+                        <div class="col-sm-6">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><h3 class="panel-title">Sheds</h3></div>
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                                <tr>
+                                                    <td>069-04 - Storage Shed - Wood Frame</td>
+                                                    <td class="text-right col-xs-4">45.00 Square Ft.</td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                        </div>
+                        <div class="col-sm-6">
+                        </div>
+                </div>
+        </div>
+<a id="Exemptions"/>
+    <div class="panel panel-info">
+        <div class="panel-heading"><h3 class="panel-title">Exemptions</h3></div>
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Exemption Type</th>
+                    <th>Status </th>
+                    <th>Farmstead</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr class="text-center">
+                        <td>Homestead</td>
+                        <td>Appl Approved (Full)</td>
+                        <td>No</td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+<a id="SalesHistory"/>
+
+<div class="panel panel-info">
+    <div class="panel-heading"><h3 class="panel-title">Sales History</h3></div>
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Document #</th>
+                    <th>Sale Type</th>
+                    <th class="col-xs-1">Sale Date</th>
+                    <th class="col-xs-3">Sold By</th>
+                    <th class="col-xs-3">Sold To</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>2016</td>
+                        <td>6268572</td>
+                        <td>DEED</td>
+                        <td>6/1/2016</td>
+                        <td>DAVID LEWIS</td>
+                        <td>SHAWN SMITH</td>
+                        <td class="text-right">$225,000</td>
+                    </tr>
+                    <tr>
+                        <td>2015</td>
+                        <td>6194759</td>
+                        <td/>
+                        <td>3/30/2015</td>
+                        <td> US BANK NA</td>
+                        <td>DAVID LEWIS</td>
+                        <td class="text-right">$97,000</td>
+                    </tr>
+                    <tr>
+                        <td>2014</td>
+                        <td>6160993</td>
+                        <td/>
+                        <td>8/27/2014</td>
+                        <td> SHERIFF OF LANCASTER COUNTY PA</td>
+                        <td> RESIDENTIAL ASSET SECURITIES CORP</td>
+                        <td class="text-right">$5,932</td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<a id="BillingCollection"/>
+
+    <div class="panel panel-info">
+        <div class="panel-heading"><h3 class="panel-title">Billing  Collection info for this District is not available for display. Please contact the following person or office:</h3></div>
+        <div class="panel-body text-center">
+                <div>Ann S. Nolt, Tax Collector</div>
+                <div>117 South Seventh Street</div>
+                <div>P.O. Box 130</div>
+                <div>Akron, PA 17501</div>
+                <div>(717) 859-1600</div>
+        </div>
+    </div>
+<a id="TaxClaims"/>
+
+
+        <div class="panel panel-info">
+            <div class="panel-heading"><h3 class="panel-title">No Delinquent Taxes</h3></div>
+        </div>
+
+        
+    </div>
+    <div class="hidden-xs col-sm-2 hidden-print">
+        <div id="sidebar" class="affix">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="#Overview">Overview</a></li>
+                <li><a href="#Photos">Sketches  Photos</a></li>
+                <li><a href="#Names">Names</a></li>
+                <li><a href="#Assessments">Assessments</a></li>
+                <li><a href="#PropertyCharacteristics">Property Information</a></li>
+                <li><a href="#Exemptions">Exemptions</a></li>
+                <li><a href="#SalesHistory">Sales History</a></li>
+                <li><a href="#BillingCollection">Billing  Collection</a></li>
+                <li><a href="#TaxClaims">Delinquent Taxes</a></li>
+                <li role="separator" class="nav-divider"/>
+                <li><a href="#" onclick="window.print();return false;">Print Parcel</a></li>
+                <li><a href="/parcel/view/0205241900000/2020/PrintProperty" target="_blank">Print Property Info</a></li>
+                <li><a href="/parcel/view/0205241900000/2020/PrintTax" target="_blank">Print Tax Info</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+        <hr/>
+        <footer>
+            <p> 2020 <a href="http://www.devnetinc.com">DEVNET, Inc</a></p>
+            <p>Data updated: 2020/03/10</p>
+            <p>wEdge Version 4.0.7242.18664</p>
+        </footer>
+    </div>
+    <script src="/Scripts/jquery-bundle.min.js"/>
+    <script src="/Scripts/bootstrap-bundle.min.js"/>
+    <script src="/Scripts/wEdge.js?v=4.0.7242.18664"/>
+    <script src="/Scripts/wEdge.Cart.js?v=4.0.7242.18664"/>
+    
+    <script/>type="text/javascript" id="mini-profiler" src="/mini-profiler-resources/includes.js?v=ySF6M98CBehTtL86BbiEmys9yxR1HKazhe2sznfdUWQ=" data-version="ySF6M98CBehTtL86BbiEmys9yxR1HKazhe2sznfdUWQ=" data-path="/mini-profiler-resources/" data-current-id="866a881d-9677-493e-9889-077b62ccd305" data-ids="866a881d-9677-493e-9889-077b62ccd305" data-position="left" data-trivial="false" data-children="false" data-max-traces="15" data-controls="false" data-authorized="false" data-toggle-shortcut="Alt+P" data-start-hidden="true" data-trivial-milliseconds="2"&gt;</body>
+
+</meta>
+</head>
+</html>

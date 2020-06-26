@@ -1,5 +1,5 @@
 # refetcher
-Real Estate Fetcher -- conglomerates information for a single property.
+Real Estate Fetcher -- conglomerates information for a single real estate property.
 
 # what does it do?
 - [X] nothing yet
@@ -14,7 +14,7 @@ Real Estate Fetcher -- conglomerates information for a single property.
 - [ ] get images via ?screenshot? from GIS (GIS)
 - [ ] search function for property owner, address, etc
 
-Connections:
+# Connections
 * TXR 
     * inputs: parcel id integer only 0000000000000 (13 digits, no special char)
     * returns: deed document number, owner, street address...

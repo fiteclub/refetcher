@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+require 'open-uri'
+require 'nokogiri'
+
+require './fetch_txr'
+require './fetch_deed'
+
+# Fetches Real Estate information from public records
+
+puts "So fetch!"

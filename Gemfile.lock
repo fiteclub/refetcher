@@ -1,0 +1,86 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ansi (1.5.0)
+    builder (3.2.4)
+    childprocess (3.0.0)
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
+    ffi (1.12.2)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    listen (3.2.1)
+      rb-fsevent (~> 0.10, >= 0.10.3)
+      rb-inotify (~> 0.9, >= 0.9.10)
+    mechanize (2.7.2)
+      domain_name (~> 0.5, >= 0.5.1)
+      http-cookie (~> 1.0.0)
+      mime-types (~> 1.17, >= 1.17.2)
+      net-http-digest_auth (~> 1.1, >= 1.1.1)
+      net-http-persistent (~> 2.5, >= 2.5.2)
+      nokogiri (~> 1.4)
+      ntlm-http (~> 0.1, >= 0.1.1)
+      webrobots (>= 0.0.9, < 0.2)
+    mime-types (1.25.1)
+    mini_portile2 (2.4.0)
+    minitest (5.11.3)
+    minitest-reporters (1.2.0)
+      ansi
+      builder
+      minitest (>= 5.0)
+      ruby-progressbar
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    net-http-digest_auth (1.4.1)
+    net-http-persistent (2.9.4)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
+    ntlm-http (0.1.1)
+    rack (2.2.2)
+    rack-protection (2.0.3)
+      rack
+    rack-test (1.0.0)
+      rack (>= 1.0, < 3)
+    rake (12.3.1)
+    rb-fsevent (0.10.3)
+    rb-inotify (0.10.1)
+      ffi (~> 1.0)
+    regexp_parser (1.7.0)
+    rerun (0.13.0)
+      listen (~> 3.0)
+    ruby-progressbar (1.10.1)
+    ruby2_keywords (0.0.2)
+    rubyzip (2.3.0)
+    selenium-webdriver (3.142.7)
+      childprocess (>= 0.5, < 4.0)
+      rubyzip (>= 1.2.2)
+    sinatra (2.0.3)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.3)
+      tilt (~> 2.0)
+    tilt (2.0.10)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.6)
+    watir (6.16.5)
+      regexp_parser (~> 1.2)
+      selenium-webdriver (~> 3.6)
+    webrobots (0.1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mechanize
+  minitest
+  minitest-reporters
+  nokogiri
+  rack-test
+  rake
+  rerun
+  sinatra
+  watir
+
+BUNDLED WITH
+   2.1.4

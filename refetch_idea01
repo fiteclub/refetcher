@@ -1,0 +1,92 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+require 'open-uri'
+require 'nokogiri'
+
+# Fetches Real Estate information from public records
+
+url = 'http://lancasterpa.devnetwedge.com/parcel/view/0205241900000/2020'
+#page = Nokogiri::HTML(open(url))
+page = Nokogiri::HTML(File.read("html.txt"))
+#page_xml = Nokogiri::XML(open(url))
+page_xml = Nokogiri::XML(File.read("xml.txt"))
+
+parent = Nokogiri::HTML.parse(File.read("html.txt")).css("body").first
+
+puts page.at_css('title').text
+
+@start_here = parent.at("a#SalesHistory")
+puts @start_here
+puts @start_here.next
+
+
+  # Assuming doc is a Nokogiri::HTML::Document
+  if body = doc.css_at('body') then
+    stack = []
+    body.children.each do |node|
+      # non-matching nodes will get level of 0
+      level = node.name[ /h([1-6])/i, 1 ].to_i
+      level = 99 if level == 0
+
+      stack.pop while (top=stack.last) && top[:level]>=level
+      stack.last[:div].add_child( node ) if stack.last
+      if level<99
+        div = Nokogiri::XML::Node.new('div',@nokodoc)
+        div.set_attribute( 'class', 'section' )
+        node.add_next_sibling(div)
+        stack << { :div=>div, :level=>level }
+      end
+    end
+  end
+
+
+
+# Search for previous element of kind "_style" starting from _start_element
+def search_for_previous_element(_start_element, _style)
+  unless _start_element.nil?
+    # have we already found what we're looking for?
+    if _start_element.name == _style
+      return _start_element
+    end
+    # _start_element is a div.block and not the _start_element itself
+    if _start_element[:class] == "block" && _start_element[:id] != @start_here[:id]
+      # begin recursion with last child inside div.block
+      from_child = search_for_previous_element(_start_element.children.last, _style)
+      if(from_child)
+        return from_child
+      end
+    end
+    # begin recursion with previous element
+    from_child = search_for_previous_element(_start_element.previous, _style) 
+    return from_child ? from_child : false
+  else
+    return false
+  end
+end
+
+previous_element_h1 = search_for_previous_element(@start_here,'td')
+
+
+
+#THISISGOOD#puts page.css("a#SalesHistory").to_html
+#puts page_xml.xpath("a#SalesHistory").first.next_element
+
+#puts page.xpath('//SalesHistory',).text.next_element
+
+# THIS SECTION GETS THE TEXT FOR TESTING
+#File.open('xml.txt', 'w') do |fo|
+#    fo.puts page_xml
+#end
+
+#File.open('html.txt', 'w') do |fo|
+#    fo.puts page
+#end
+
+
+#page.css('div').css('tr').each do |item|
+    # puts item.at_css('tr:nth-child(1) td').text
+#    puts item.css('td').text
+#end
+#page.css('tr').each do |item|
+#    puts item.at_css('td').text
+#end
