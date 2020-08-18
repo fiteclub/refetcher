@@ -8,7 +8,7 @@ Real Estate Fetcher -- conglomerates information for a single real estate proper
 
 # what it should do
 - [ ] get single or multiple property id from user input
-- [ ] get text & images from tax records (TXR)
+- [-] get text & images from tax records (TXR)
 - [ ] get deed pdf from county records (DEED)
 - [ ] get text & images from mls listings (MLS)
 - [ ] get text & images from mls public records (MLSPUB)
