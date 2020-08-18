@@ -4,6 +4,7 @@ Real Estate Fetcher -- conglomerates information for a single real estate proper
 # what does it do?
 - [X] nothing yet
 - [X] this shouldn't be a checklist
+- [X] returns last deed number from TXR given taxid
 
 # what it should do
 - [ ] get single or multiple property id from user input
