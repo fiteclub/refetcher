@@ -1,10 +1,11 @@
+#!/usr/bin/env ruby
 require 'rubygems'
 require 'open-uri'
 require 'nokogiri'
 
 # Gets example data to experiment with
 
-url = 'http://lancasterpa.devnetwedge.com/parcel/view/0205241900000/2020'
+url = 'http://lancasterpa.devnetwedge.com/parcel/view/5708080100000/2020'
 page = Nokogiri::HTML(open(url))
 page_xml = Nokogiri::XML(open(url))
 

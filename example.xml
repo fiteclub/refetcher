@@ -5,7 +5,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parcel Details for 0205241900000</title>
-    <link href="/Content/dist/css/site.min.css?v=4.0.7242.18664" rel="stylesheet"/>
+    <link href="/Content/dist/css/site.min.css?v=4.0.7492.22546" rel="stylesheet"/>
     <link href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css" rel="stylesheet"/>
     <link rel="SHORTCUT ICON" href="/Images/devnet.ico">
 </link>
@@ -592,16 +592,16 @@
         <hr/>
         <footer>
             <p> 2020 <a href="http://www.devnetinc.com">DEVNET, Inc</a></p>
-            <p>Data updated: 2020/03/10</p>
-            <p>wEdge Version 4.0.7242.18664</p>
+            <p>Data updated: 2020/08/14</p>
+            <p>wEdge Version 4.0.7492.22546</p>
         </footer>
     </div>
     <script src="/Scripts/jquery-bundle.min.js"/>
     <script src="/Scripts/bootstrap-bundle.min.js"/>
-    <script src="/Scripts/wEdge.js?v=4.0.7242.18664"/>
-    <script src="/Scripts/wEdge.Cart.js?v=4.0.7242.18664"/>
+    <script src="/Scripts/wEdge.js?v=4.0.7492.22546"/>
+    <script src="/Scripts/wEdge.Cart.js?v=4.0.7492.22546"/>
     
-    <script/>type="text/javascript" id="mini-profiler" src="/mini-profiler-resources/includes.js?v=ySF6M98CBehTtL86BbiEmys9yxR1HKazhe2sznfdUWQ=" data-version="ySF6M98CBehTtL86BbiEmys9yxR1HKazhe2sznfdUWQ=" data-path="/mini-profiler-resources/" data-current-id="ecfd833d-8c1c-48c0-afa4-1bda7ec8bdb7" data-ids="ecfd833d-8c1c-48c0-afa4-1bda7ec8bdb7" data-position="left" data-trivial="false" data-children="false" data-max-traces="15" data-controls="false" data-authorized="false" data-toggle-shortcut="Alt+P" data-start-hidden="true" data-trivial-milliseconds="2"&gt;</body>
+    <script/>type="text/javascript" id="mini-profiler" src="/mini-profiler-resources/includes.js?v=ySF6M98CBehTtL86BbiEmys9yxR1HKazhe2sznfdUWQ=" data-version="ySF6M98CBehTtL86BbiEmys9yxR1HKazhe2sznfdUWQ=" data-path="/mini-profiler-resources/" data-current-id="de40f64b-3322-4322-9d60-8a8b65245172" data-ids="de40f64b-3322-4322-9d60-8a8b65245172" data-position="left" data-trivial="false" data-children="false" data-max-traces="15" data-controls="false" data-authorized="false" data-toggle-shortcut="Alt+P" data-start-hidden="true" data-trivial-milliseconds="2"&gt;</body>
 
 </meta>
 </head>
