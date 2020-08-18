@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parcel Details for 0205241900000</title>
+    <title>Parcel Details for 5708080100000</title>
     <link href="/Content/dist/css/site.min.css?v=4.0.7492.22546" rel="stylesheet"/>
     <link href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css" rel="stylesheet"/>
     <link rel="SHORTCUT ICON" href="/Images/devnet.ico">
@@ -56,7 +56,7 @@
             <div class="col-sm-6">
                 <div class="row">
                     <div class="inner-label col-sm-5">Property ID</div>
-                    <div class="col-sm-7">020-52419-0-0000</div>
+                    <div class="col-sm-7">570-80801-0-0000</div>
                 </div>
                 <div class="row">
                     <div class="inner-label col-sm-5">Tax Year</div>
@@ -68,34 +68,34 @@
                                 <span class="sr-only">Toggle Dropdown</span>
                             </button>
                             <ul class="dropdown-menu">
-                                    <li><a href="/parcel/view/0205241900000/2020">2020</a></li>
-                                    <li><a href="/parcel/view/0205241900000/2019">2019</a></li>
-                                    <li><a href="/parcel/view/0205241900000/2018">2018</a></li>
-                                    <li><a href="/parcel/view/0205241900000/2017">2017</a></li>
-                                    <li><a href="/parcel/view/0205241900000/2016">2016</a></li>
-                                    <li><a href="/parcel/view/0205241900000/2015">2015</a></li>
-                                    <li><a href="/parcel/view/0205241900000/2014">2014</a></li>
-                                    <li><a href="/parcel/view/0205241900000/2013">2013</a></li>
-                                    <li><a href="/parcel/view/0205241900000/2012">2012</a></li>
-                                    <li><a href="/parcel/view/0205241900000/2011">2011</a></li>
-                                    <li><a href="/parcel/view/0205241900000/2010">2010</a></li>
-                                    <li><a href="/parcel/view/0205241900000/2009">2009</a></li>
-                                    <li><a href="/parcel/view/0205241900000/2008">2008</a></li>
-                                    <li><a href="/parcel/view/0205241900000/2007">2007</a></li>
-                                    <li><a href="/parcel/view/0205241900000/2006">2006</a></li>
-                                    <li><a href="/parcel/view/0205241900000/2005">2005</a></li>
+                                    <li><a href="/parcel/view/5708080100000/2020">2020</a></li>
+                                    <li><a href="/parcel/view/5708080100000/2019">2019</a></li>
+                                    <li><a href="/parcel/view/5708080100000/2018">2018</a></li>
+                                    <li><a href="/parcel/view/5708080100000/2017">2017</a></li>
+                                    <li><a href="/parcel/view/5708080100000/2016">2016</a></li>
+                                    <li><a href="/parcel/view/5708080100000/2015">2015</a></li>
+                                    <li><a href="/parcel/view/5708080100000/2014">2014</a></li>
+                                    <li><a href="/parcel/view/5708080100000/2013">2013</a></li>
+                                    <li><a href="/parcel/view/5708080100000/2012">2012</a></li>
+                                    <li><a href="/parcel/view/5708080100000/2011">2011</a></li>
+                                    <li><a href="/parcel/view/5708080100000/2010">2010</a></li>
+                                    <li><a href="/parcel/view/5708080100000/2009">2009</a></li>
+                                    <li><a href="/parcel/view/5708080100000/2008">2008</a></li>
+                                    <li><a href="/parcel/view/5708080100000/2007">2007</a></li>
+                                    <li><a href="/parcel/view/5708080100000/2006">2006</a></li>
+                                    <li><a href="/parcel/view/5708080100000/2005">2005</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="inner-label col-sm-5">Township</div>
-                    <div class="col-sm-7">020 Akron Boro</div>
+                    <div class="col-sm-7">570 Strasburg Boro</div>
                 </div>
                 <div class="row">
                     <div class="inner-label col-sm-5">Site Address</div>
                         <div class="col-sm-7">
-                            303  MANOR RIDGE DR         
+                            106  PUTNAM CIR         
                         </div>
                 </div>
 
@@ -128,11 +128,11 @@
         <div class="panel-body">
                 <div class="col-xs-6">
                     <p class="text-center">1-1</p>
-                    <a href="/PropertyImages/CAMA/2020/109856.JPG" target="_blank"><img style="width:100%" src="/PropertyImages/CAMA/2020/109856.JPG"/></a>
+                    <a href="/PropertyImages/CAMA/2020/163146.JPG" target="_blank"><img style="width:100%" src="/PropertyImages/CAMA/2020/163146.JPG"/></a>
                 </div>
                 <div class="col-xs-6">
-                    <p class="text-center">Parcel photo</p>
-                    <a href="/PropertyImages/ASRIMG/LAN0191/01910359.jpg" target="_blank"><img style="width:100%" src="/PropertyImages/ASRIMG/LAN0191/01910359.jpg"/></a>
+                    <p class="text-center">Imported Image</p>
+                    <a href="/PropertyImages/ASRIMG/2015/1171281.JPG" target="_blank"><img style="width:100%" src="/PropertyImages/ASRIMG/2015/1171281.JPG"/></a>
                 </div>
         </div>
 </div>
@@ -147,13 +147,33 @@
                             
                             <div class="row">
                                 <div class="inner-label col-sm-4">Parcel Owner</div>
-                                <div class="col-sm-8">SMITH, SHAWN M</div>
+                                <div class="col-sm-8">FITE, MATTHEW D</div>
                             </div>
                             <div class="row">
                                 <div class="inner-label col-sm-4"/>
-                                <div class="col-sm-8">303 MANOR RIDGE DRIVE </div>
+                                <div class="col-sm-8">106 PUTNAM CIRCLE </div>
                                 <div class="inner-label col-sm-4"/>
-                                <div class="col-sm-8">AKRON, PA 17501</div>
+                                <div class="col-sm-8">STRASBURG, PA 17579</div>
+                            </div>
+                            <div class="row">
+                                <div class="inner-label col-sm-4">Status</div>
+                                <div class="col-sm-8">Current</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-sm-6" style="padding:2px">
+                        <div style="border:solid;border-width:thin;padding:5px;border-radius:5px;border-color:#459e00">
+                            
+                            <div class="row">
+                                <div class="inner-label col-sm-4">Parcel Owner</div>
+                                <div class="col-sm-8">FITE, HOLLY M</div>
+                            </div>
+                            <div class="row">
+                                <div class="inner-label col-sm-4"/>
+                                <div class="col-sm-8">106 PUTNAM CIRCLE </div>
+                                <div class="inner-label col-sm-4"/>
+                                <div class="col-sm-8">STRASBURG, PA 17579</div>
                             </div>
                             <div class="row">
                                 <div class="inner-label col-sm-4">Status</div>
@@ -188,9 +208,9 @@
                         <tbody>
                             <tr class="text-right">
                                 <td style="text-align:left">Non-Exempt</td>
-                                <td>45,400</td>
-                                <td>117,100</td>
-                                <td style="font-weight:bold;">162,500</td>
+                                <td>43,200</td>
+                                <td>213,900</td>
+                                <td style="font-weight:bold;">257,100</td>
                                 <td>0</td>
                                 <td>0</td>
                                 <td style="font-weight:bold;">0</td>
@@ -206,9 +226,9 @@
                             </tr>
                             <tr class="text-right" style="font-weight:bold;">
                                 <td style="text-align:left">Total</td>
-                                <td>45,400</td>
-                                <td>117,100</td>
-                                <td>162,500</td>
+                                <td>43,200</td>
+                                <td>213,900</td>
+                                <td>257,100</td>
                                 <td>0</td>
                                 <td>0</td>
                                 <td>0</td>
@@ -263,8 +283,8 @@
                     <tr class="text-center">
                         <td>RES - Residential</td>
                         <td>2 - PRIMARY HOMESITE</td>
-                        <td style="text-align:right">13,068</td>
-                        <td style="text-align:right">0.3000</td>
+                        <td style="text-align:right">11,326</td>
+                        <td style="text-align:right">0.2600</td>
                     </tr>
             </tbody>
         </table>
@@ -288,10 +308,10 @@
                         <tbody>
                             <tr class="text-center">
                                 <td>RES - Residential</td>
-                                <td>BI-LEVEL #1</td>
-                                <td>Bi-Level</td>
-                                <td style="text-align:right">1,200</td>
-                                <td style="text-align:right">1979</td>
+                                <td>CONTEMPORARY #1</td>
+                                <td>Two Story</td>
+                                <td style="text-align:right">2,428</td>
+                                <td style="text-align:right">1992</td>
                             </tr>
                         </tbody>
                     </table>
@@ -304,15 +324,19 @@
                                         <tbody>
                                                 <tr>
                                                     <td>Extra Fixtures</td>
-                                                    <td class="text-right col-xs-4">                  3 </td>
+                                                    <td class="text-right col-xs-4">                  2 </td>
                                                 </tr>
                                                 <tr>
                                                     <td>Full Baths</td>
                                                     <td class="text-right col-xs-4">                  2 </td>
                                                 </tr>
                                                 <tr>
+                                                    <td>Half Baths</td>
+                                                    <td class="text-right col-xs-4">                  1 </td>
+                                                </tr>
+                                                <tr>
                                                     <td>Number of Bedrooms</td>
-                                                    <td class="text-right col-xs-4">                  3 </td>
+                                                    <td class="text-right col-xs-4">                  4 </td>
                                                 </tr>
                                                 <tr>
                                                     <td>Number of Families</td>
@@ -320,18 +344,18 @@
                                                 </tr>
                                                 <tr>
                                                     <td>Number of Rooms</td>
-                                                    <td class="text-right col-xs-4">                  5 </td>
+                                                    <td class="text-right col-xs-4">                  8 </td>
                                                 </tr>
                                         </tbody>
                                     </table>
                                 </div>
                                 <div class="panel panel-default">
-                                    <div class="panel-heading"><h3 class="panel-title">Fireplaces</h3></div>
+                                    <div class="panel-heading"><h3 class="panel-title">Garage/Carport</h3></div>
                                     <table class="table table-bordered">
                                         <tbody>
                                                 <tr>
-                                                    <td>Single 1-Story Fireplace</td>
-                                                    <td class="text-right col-xs-4">1.00 Units</td>
+                                                    <td>Attached Garage</td>
+                                                    <td class="text-right col-xs-4">528.00 Sq.Ft.</td>
                                                 </tr>
                                         </tbody>
                                     </table>
@@ -342,7 +366,7 @@
                                         <tbody>
                                                 <tr>
                                                     <td>Concrete, Unreinforced Hand Mixed and Spread</td>
-                                                    <td class="text-right col-xs-4">180.00 Sq.Ft.</td>
+                                                    <td class="text-right col-xs-4">576.00 Sq.Ft.</td>
                                                 </tr>
                                         </tbody>
                                     </table>
@@ -353,18 +377,18 @@
                                         <tbody>
                                                 <tr>
                                                     <td>Composition Shingle</td>
-                                                    <td class="text-right col-xs-4">1200.00 Sq.Ft.</td>
+                                                    <td class="text-right col-xs-4">2428.00 Sq.Ft.</td>
                                                 </tr>
                                         </tbody>
                                     </table>
                                 </div>
                                 <div class="panel panel-default">
-                                    <div class="panel-heading"><h3 class="panel-title">Style</h3></div>
+                                    <div class="panel-heading"><h3 class="panel-title">Story Height</h3></div>
                                     <table class="table table-bordered">
                                         <tbody>
                                                 <tr>
-                                                    <td>Style</td>
-                                                    <td class="text-right col-xs-4">BI-LEVEL </td>
+                                                    <td>Number of Stories</td>
+                                                    <td class="text-right col-xs-4">               2.00 </td>
                                                 </tr>
                                         </tbody>
                                     </table>
@@ -376,16 +400,8 @@
                                     <table class="table table-bordered">
                                         <tbody>
                                                 <tr>
-                                                    <td>Basement Garage, Single</td>
-                                                    <td class="text-right col-xs-4">1.00 Units</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Minimal Finish Area</td>
-                                                    <td class="text-right col-xs-4">620.00 Sq.Ft.</td>
-                                                </tr>
-                                                <tr>
                                                     <td>Total Basement Area</td>
-                                                    <td class="text-right col-xs-4">1134.00 Sq.Ft.</td>
+                                                    <td class="text-right col-xs-4">1324.00 Sq.Ft.</td>
                                                 </tr>
                                         </tbody>
                                     </table>
@@ -395,8 +411,30 @@
                                     <table class="table table-bordered">
                                         <tbody>
                                                 <tr>
-                                                    <td>Frame, Plywood</td>
-                                                    <td class="text-right col-xs-4">1200.00 Sq.Ft.</td>
+                                                    <td>Frame, Siding, Vinyl</td>
+                                                    <td class="text-right col-xs-4">2428.00 Sq.Ft.</td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><h3 class="panel-title">Fireplaces</h3></div>
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                                <tr>
+                                                    <td>Single 2-Story Fireplace</td>
+                                                    <td class="text-right col-xs-4">1.00 Units</td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><h3 class="panel-title">Fuel Type</h3></div>
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                                <tr>
+                                                    <td>Fuel Type</td>
+                                                    <td class="text-right col-xs-4">Electric </td>
                                                 </tr>
                                         </tbody>
                                     </table>
@@ -407,7 +445,7 @@
                                         <tbody>
                                                 <tr>
                                                     <td>Warmed  Cooled Air</td>
-                                                    <td class="text-right col-xs-4">1200.00 Sq.Ft.</td>
+                                                    <td class="text-right col-xs-4">2428.00 Sq.Ft.</td>
                                                 </tr>
                                         </tbody>
                                     </table>
@@ -417,19 +455,23 @@
                                     <table class="table table-bordered">
                                         <tbody>
                                                 <tr>
-                                                    <td>Wood Deck</td>
-                                                    <td class="text-right col-xs-4">180.00 Sq.Ft.</td>
+                                                    <td>Enclosed Porch, Knee Walls w/Glass</td>
+                                                    <td class="text-right col-xs-4">288.00 Sq.Ft.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Slab Porch with Roof</td>
+                                                    <td class="text-right col-xs-4">104.00 Sq.Ft.</td>
                                                 </tr>
                                         </tbody>
                                     </table>
                                 </div>
                                 <div class="panel panel-default">
-                                    <div class="panel-heading"><h3 class="panel-title">Story Height</h3></div>
+                                    <div class="panel-heading"><h3 class="panel-title">Style</h3></div>
                                     <table class="table table-bordered">
                                         <tbody>
                                                 <tr>
-                                                    <td>Number of Stories</td>
-                                                    <td class="text-right col-xs-4">               1.00 </td>
+                                                    <td>Style</td>
+                                                    <td class="text-right col-xs-4">CONTEMPORARY </td>
                                                 </tr>
                                         </tbody>
                                     </table>
@@ -453,10 +495,10 @@
                         <tbody>
                             <tr class="text-center">
                                 <td>RES - Residential</td>
-                                <td>Detached Structure #1</td>
-                                <td>Outbuildings</td>
-                                <td style="text-align:right">45</td>
-                                <td style="text-align:right">2005</td>
+                                <td>DS #! - Storage Shed, wood </td>
+                                <td>One Story</td>
+                                <td style="text-align:right">0</td>
+                                <td style="text-align:right">2016</td>
                             </tr>
                         </tbody>
                     </table>
@@ -469,7 +511,7 @@
                                         <tbody>
                                                 <tr>
                                                     <td>069-04 - Storage Shed - Wood Frame</td>
-                                                    <td class="text-right col-xs-4">45.00 Square Ft.</td>
+                                                    <td class="text-right col-xs-4">32.00 Square Ft.</td>
                                                 </tr>
                                         </tbody>
                                     </table>
@@ -518,31 +560,22 @@
             </thead>
             <tbody>
                     <tr>
-                        <td>2016</td>
-                        <td>6268572</td>
+                        <td>2018</td>
+                        <td>6387748</td>
                         <td>DEED</td>
-                        <td>6/1/2016</td>
-                        <td>DAVID LEWIS</td>
-                        <td>SHAWN SMITH</td>
-                        <td class="text-right">$225,000</td>
+                        <td>3/22/2018</td>
+                        <td>JEFFREY HAYES</td>
+                        <td>HOLLY FITE</td>
+                        <td class="text-right">$315,000</td>
                     </tr>
                     <tr>
-                        <td>2015</td>
-                        <td>6194759</td>
+                        <td>1992</td>
+                        <td>3480172</td>
                         <td/>
-                        <td>3/30/2015</td>
-                        <td> US BANK NA</td>
-                        <td>DAVID LEWIS</td>
-                        <td class="text-right">$97,000</td>
-                    </tr>
-                    <tr>
-                        <td>2014</td>
-                        <td>6160993</td>
+                        <td>5/1/1992</td>
                         <td/>
-                        <td>8/27/2014</td>
-                        <td> SHERIFF OF LANCASTER COUNTY PA</td>
-                        <td> RESIDENTIAL ASSET SECURITIES CORP</td>
-                        <td class="text-right">$5,932</td>
+                        <td/>
+                        <td class="text-right">$0</td>
                     </tr>
             </tbody>
         </table>
@@ -553,11 +586,10 @@
     <div class="panel panel-info">
         <div class="panel-heading"><h3 class="panel-title">Billing  Collection info for this District is not available for display. Please contact the following person or office:</h3></div>
         <div class="panel-body text-center">
-                <div>Ann S. Nolt, Tax Collector</div>
-                <div>117 South Seventh Street</div>
-                <div>P.O. Box 130</div>
-                <div>Akron, PA 17501</div>
-                <div>(717) 859-1600</div>
+                <div>Borough of Strasburg</div>
+                <div>145 Precision Avenue</div>
+                <div>Strasburg, PA 17579</div>
+                <div>(717) 687-7732</div>
         </div>
     </div>
 <a id="TaxClaims"/>
@@ -583,8 +615,8 @@
                 <li><a href="#TaxClaims">Delinquent Taxes</a></li>
                 <li role="separator" class="nav-divider"/>
                 <li><a href="#" onclick="window.print();return false;">Print Parcel</a></li>
-                <li><a href="/parcel/view/0205241900000/2020/PrintProperty" target="_blank">Print Property Info</a></li>
-                <li><a href="/parcel/view/0205241900000/2020/PrintTax" target="_blank">Print Tax Info</a></li>
+                <li><a href="/parcel/view/5708080100000/2020/PrintProperty" target="_blank">Print Property Info</a></li>
+                <li><a href="/parcel/view/5708080100000/2020/PrintTax" target="_blank">Print Tax Info</a></li>
             </ul>
         </div>
     </div>
@@ -592,7 +624,7 @@
         <hr/>
         <footer>
             <p> 2020 <a href="http://www.devnetinc.com">DEVNET, Inc</a></p>
-            <p>Data updated: 2020/08/14</p>
+            <p>Data updated: 2020/08/17</p>
             <p>wEdge Version 4.0.7492.22546</p>
         </footer>
     </div>
@@ -601,7 +633,7 @@
     <script src="/Scripts/wEdge.js?v=4.0.7492.22546"/>
     <script src="/Scripts/wEdge.Cart.js?v=4.0.7492.22546"/>
     
-    <script/>type="text/javascript" id="mini-profiler" src="/mini-profiler-resources/includes.js?v=ySF6M98CBehTtL86BbiEmys9yxR1HKazhe2sznfdUWQ=" data-version="ySF6M98CBehTtL86BbiEmys9yxR1HKazhe2sznfdUWQ=" data-path="/mini-profiler-resources/" data-current-id="de40f64b-3322-4322-9d60-8a8b65245172" data-ids="de40f64b-3322-4322-9d60-8a8b65245172" data-position="left" data-trivial="false" data-children="false" data-max-traces="15" data-controls="false" data-authorized="false" data-toggle-shortcut="Alt+P" data-start-hidden="true" data-trivial-milliseconds="2"&gt;</body>
+    <script/>type="text/javascript" id="mini-profiler" src="/mini-profiler-resources/includes.js?v=ySF6M98CBehTtL86BbiEmys9yxR1HKazhe2sznfdUWQ=" data-version="ySF6M98CBehTtL86BbiEmys9yxR1HKazhe2sznfdUWQ=" data-path="/mini-profiler-resources/" data-current-id="a0cde998-f582-45f0-bbc8-17ba8eb6e228" data-ids="a0cde998-f582-45f0-bbc8-17ba8eb6e228" data-position="left" data-trivial="false" data-children="false" data-max-traces="15" data-controls="false" data-authorized="false" data-toggle-shortcut="Alt+P" data-start-hidden="true" data-trivial-milliseconds="2"&gt;</body>
 
 </meta>
 </head>
