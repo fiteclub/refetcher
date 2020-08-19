@@ -11,4 +11,3 @@ form = agent.page.forms[1]
 form.guest = true
 form.public = true
 form.scriptsupport = "yes"
-

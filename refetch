@@ -13,6 +13,7 @@ year = Date.today.year.to_s
 
 text_divider = "-------"
 
+# Prints a character to show it's doing something
 def impatient()
   impatient = Thread.new do
     loop do
