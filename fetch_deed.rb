@@ -8,6 +8,11 @@ require 'pry'
 # execute this block if not logged in 
 browser = Watir::Browser.start 'https://searchdocs.lancasterdeeds.com/countyweb/main.jsp?countyname=Lancaster'
 sleep 1
+if
+  browser.link(:text =>"Click here to logout").when_present.click
+else
+end
+
 binding.pry
 browser.element(value: "Login as Guest").click
 sleep 2
