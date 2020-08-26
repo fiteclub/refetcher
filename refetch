@@ -32,4 +32,3 @@ txr_deed = fetch_txr(tax, year)
 impatient.kill
 puts text_divider
 puts txr_deed
-
