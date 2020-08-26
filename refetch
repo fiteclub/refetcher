@@ -4,6 +4,7 @@ require 'open-uri'
 require 'nokogiri'
 
 require './fetch_txr'
+require './fetch_deed'
 # require './fetch_deed'
 
 # Fetches Real Estate information from public tax records
@@ -27,7 +28,7 @@ puts 'This is like, SO fetch!'
 puts text_divider
 print 'Getting the last deed number from tax records.'
 impatient
-txr_deed = txr(tax, year)
+txr_deed = fetch_txr(tax, year)
 impatient.kill
 puts text_divider
 puts txr_deed

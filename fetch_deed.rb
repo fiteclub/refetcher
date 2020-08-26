@@ -1,166 +1,104 @@
 require 'rubygems'
 require 'watir'
 require 'pry'
+require_relative './utils.rb'
 
-docid = "6268572"
-
-# With visible browser (headed?)
-browser = Watir::Browser.start 'https://searchdocs.lancasterdeeds.com/countyweb/main.jsp?countyname=Lancaster'
-
-# Headless mode!
-# browser = Watir::Browser.new :chrome, headless: true
-# browser.goto 'https://searchdocs.lancasterdeeds.com/countyweb/main.jsp?countyname=Lancaster'
-
-def humanize
-  sleep rand(1.0..3.0)
-end
+include Utils
 
 def login(browser)
-  
-  humanize
+  human_call("login_check", browser)
+  human_call("click_login_as_guest", browser)
+  human_call("click_login_accept", browser)
+end
 
-  # dismiss logged out dialog if present 
+def login_check(browser)
   if
     browser.link(:text =>"Click here to logout").when_present.click
   else
   end
+end
 
-  humanize
-
-  # click login as guest
+def click_login_as_guest(browser)
   browser.element(value: "Login as Guest").click
+end
 
-  humanize
-
-  # click javascript accept button
+def click_login_accept(browser)
   browser.iframe(name: "bodyframe")
     .button(name: "accept")
     .click
-
-  humanize
-
 end
 
-# Primary search form begins here
-
-  # def initialize
-    
-  # end
-
-  # Click "Search public records"
-  def click_search(browser)
-    browser.iframe(name: "bodyframe")
-    .element(:xpath => "/html/body/form/div[3]/div/div/div[2]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/table/tbody/tr[1]/td/div/i")
-    .click
-  end
-
-  # Click "Instrument number"
-  # browser.iframe(name: "bodyframe").iframe(name: "dynSearchFrame").element(:xpath => "/html/body/div[1]/div/div[3]/div[2]/div/div[1]/div/div/div/div/div[2]/div[2]/table/tbody/tr[4]/td/div/span").click
-  def click_instnum(browser)
+def click_search(browser)
   browser.iframe(name: "bodyframe")
-    .iframe(name: "dynSearchFrame")
-    .element(:xpath => "/html/body/div[1]/div/div[3]/div[2]/div/div[1]/div/div/div/div/div[2]/div[2]/table/tbody/tr[4]/td/div/span")
-    .click
-  end
+  .element(:xpath => "/html/body/form/div[3]/div/div/div[2]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/table/tbody/tr[1]/td/div/i")
+  .click
+end
 
-  # Clear text field
-  # browser.iframe(name: "bodyframe").iframe(name: "dynSearchFrame").element(:xpath => "/html/body/div[1]/div/div[1]/div/div/span[2]/a[1]").fire_event :click
-  def clear_instnum(browser)
+def click_instnum(browser)
+browser.iframe(name: "bodyframe")
+  .iframe(name: "dynSearchFrame")
+  .element(:xpath => "/html/body/div[1]/div/div[3]/div[2]/div/div[1]/div/div/div/div/div[2]/div[2]/table/tbody/tr[4]/td/div/span")
+  .click
+end
+
+def clear_instnum(browser)
+browser.iframe(name: "bodyframe")
+  .iframe(name: "dynSearchFrame")
+  .element(:xpath => "/html/body/div[1]/div/div[1]/div/div/span[2]/a[1]")
+  .fire_event :click
+end
+
+def search_doc(browser, docid)
+  browser
+    .iframe(name: "bodyframe")
+    .iframe(name: "dynSearchFrame")
+    .iframe(name: "criteriaframe")
+    .text_field(:xpath => "/html/body/form[1]/div[1]/div/table/tbody/tr/td[2]/span/input[1]")
+    .set(docid)
+  sleep 1
+  browser.send_keys :enter
+end
+
+def go_doc(browser)
   browser.iframe(name: "bodyframe")
-    .iframe(name: "dynSearchFrame")
-    .element(:xpath => "/html/body/div[1]/div/div[1]/div/div/span[2]/a[1]")
-    .fire_event :click
-  end
+    .iframe(name: "resultFrame")
+    .iframe(name: "resultListFrame")
+    .element(:xpath => "/html/body/form/div/div/div/div/div[2]/div[2]/table/tbody/tr/td[2]/div/span[1]/a")
+    .click!
+end
+
+def save_image(browser)
+  browser.iframe(name: "bodyframe")
+    .iframe(name: "resnavframe")
+    .element(:xpath => "/html/body/div/table/tbody/tr[1]/td[2]/a")
+    .click!
+end
 
 
-  # Fill doc number in text field -- fill with docid variable
-  # browser.iframe(name: "bodyframe").iframe(name: "dynSearchFrame").iframe(name: "criteriaframe").text_field(:xpath => "/html/body/form[1]/div[1]/div/table/tbody/tr/td[2]/span/input[1]").set(docid)
-  def search_doc(browser, docid)
-    browser
-      .iframe(name: "bodyframe")
-      .iframe(name: "dynSearchFrame")
-      .iframe(name: "criteriaframe")
-      .text_field(:xpath => "/html/body/form[1]/div[1]/div/table/tbody/tr/td[2]/span/input[1]")
-      .set(docid)
-    sleep 1
-    browser.send_keys :enter
-  end
+def download(browser)
+  browser.iframe(name: "dialogframe")
+    .element(:xpath => "/html/body/form/div[2]/table/tbody/tr/td[2]/input")
+    .click!
+end
+
+# This is where the magic happens
+def magic
+  docid = "6268572"
+  browser = Watir::Browser.start 'https://searchdocs.lancasterdeeds.com/countyweb/main.jsp?countyname=Lancaster'
+  # browser = Watir::Browser.new :chrome, headless: true
+  # browser.goto 'https://searchdocs.lancasterdeeds.com/countyweb/main.jsp?countyname=Lancaster'
   
-  # Click the first document (row 1, column 2)
-  def go_doc(browser)
-    browser.iframe(name: "bodyframe")
-      .iframe(name: "resultFrame")
-      .iframe(name: "resultListFrame")
-      .element(:xpath => "/html/body/form/div/div/div/div/div[2]/div[2]/table/tbody/tr/td[2]/div/span[1]/a")
-      .click!
-  end
+  login(browser)
+  human_call("click_search", browser)
+  human_call("click_instnum", browser)
+  human_call("search_doc", browser, docid)
+  human_call("go_doc", browser)
+  human_call("save_image", browser)
+  human_call("download", browser)
+end
 
-  # Click the "save image" option in navbar
-  def save_image(browser)
-    browser.iframe(name: "bodyframe")
-      .iframe(name: "resnavframe")
-      .element(:xpath => "/html/body/div/table/tbody/tr[1]/td[2]/a")
-      .click!
-  end
+magic
 
-  # Click download
-  def download(browser)
-    browser.iframe(name: "dialogframe")
-      .element(:xpath => "/html/body/form/div[2]/table/tbody/tr/td[2]/input")
-      .click!
-  end
-
-login(browser)
-humanize
-binding.pry
-
-click_search(browser)
-humanize
-binding.pry
-
-click_instnum(browser)
-humanize
-binding.pry
-
-search_doc(browser, docid)
-humanize
-binding.pry
-
-go_doc(browser)
-humanize
-binding.pry
-
-save_image(browser)
-humanize
-binding.pry
-
-download(browser)
-humanize
-binding.pry
-
-puts "you are one step away from exiting."
-
-
-# Not elegant, but it works -- would rather have this click "Search"
-
-
-# This doesn't work, it incurrs the pop-up box indicating that the doc id field is empty, even though it was filled in the previous code
-# Click "Search"
-# This should be a method
-# browser.iframe(name: "bodyframe")
-#   .iframe(name: "dynSearchFrame")
-#   .element(:xpath => "/html/body/div[1]/div/div[1]/div/div/span[2]/a[2]")
-#   .fire_event :click
-# sleep 1
-
-# binding.pry
-
-####  id="inst0"
+# puts "you are one step away from exiting."
 # CAN'T DO A SCREENSHOT IF HEADLESS! 
-
-##  browser.iframe(name: "bodyframe").iframe(name: "resultFrame").iframe(name: "resultListFrame").element(:xpath => "/html/body/form/div/div/div/div/div[2]/div[2]/table/tbody/tr/td[2]/div/span[1]/a").present?
-
-browser.screenshot.save 'screenshot.png'
-sleep 2
-
-binding.pry
+# browser.screenshot.save 'screenshot.png'
