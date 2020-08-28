@@ -19,24 +19,37 @@ binding.pry
 
 ap tax_record
 
-# parcel_schema = {
-#   property_information: {
-#     property_id: "020-52419-0-0000",
-#     tax_year: 2012,
-#     township: {
-#       code: "020",
-#       name: "Akron Boro",
-#     },
-#     site_address: "123 Walnut St",
-#     property_use: {
-#      code: "100",
-#      name: "RESIDENTIAL"
-#     },
-#     land_use: {
-#       code: "113",
-#       name: "SINGLE FAMILY DWELLING"
-#     },
-#     tax_status: true,
-#     clean_and_green: false
-#   }
-# }
+parcel_schema = {
+  property_information: {
+    property_id: "020-52419-0-0000",
+    tax_year: 2012,
+    township: {
+      code: "020",
+      name: "Akron Boro",
+    },
+    site_address: "123 Walnut St",
+    property_use: {
+      code: "100",
+      name: "RESIDENTIAL"
+    },
+    land_use: {
+      code: "113",
+      name: "SINGLE FAMILY DWELLING"
+    },
+    tax_status: true,
+    clean_and_green: false
+    parcel_owners: {  # TODO: Iterate the table at /html/body/div[2]/div/div[1]/div[4]/div[2]
+      owner_1 {
+        name: "Joey Jo Jo Shabadoo"
+        address: ["100 Evergreen Terrace", "Springfield, PA 23456"]
+        status: "Current"
+      }
+      owner_2 {
+        name: "Ivana Tinkle"
+        address: []
+        status: "Current"
+      }
+    }
+
+  }
+}
